@@ -184,12 +184,14 @@ ul li img {
     margin-top: -230px;
     margin-left: 130px;
     border-radius: 20px;
-    padding: 16px;
-    animation: span 0.3s linear infinite;
+    padding: 16px;    
     cursor: pointer;
-
 }
 
+#agendar a{
+    animation: span 0.3s linear infinite;
+    text-decoration: none;
+}
 
 
 #sobre {
