@@ -583,7 +583,20 @@ ul li img {
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1524px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    
+    .servicos-tudo {
+        width: 100%;
+        margin-top: 20px;
+        column-gap: 40px;
+        list-style: none;
+        margin-bottom: 60px;
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
 
     .horario-tudo {
         display: flex;
