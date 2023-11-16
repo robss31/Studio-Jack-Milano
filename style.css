@@ -115,7 +115,7 @@ ul li img {
     margin-bottom: 20px;
 }
 
-#servicos {
+#servicos-titulo {
     margin-left: 30px;
     margin-top: 30px;
     animation: span 0.3s linear infinite;
@@ -195,7 +195,7 @@ ul li img {
     text-align: center;
 }
 
-#sobre {
+#sobre-titulo {
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: -10px;
@@ -249,7 +249,7 @@ ul li img {
 }
 
 
-#contato {
+#contato-titulo {
     margin-top: 25px;
     margin-bottom: -60px;
     margin-left: 25px;
@@ -348,9 +348,7 @@ ul li img {
     text-align: center;
     font-size: 20px;
     margin-top: -15px;
-
 }
-
 
 #fim {
     width: 100%;
@@ -358,15 +356,179 @@ ul li img {
     background-color: #222424;
     color: azure;
     text-align: center;
+   
+
 }
 
 #fim p {
-    padding: 30px;
+    padding: 40px;
 }
 
 
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-@media (min-width: 480px) and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 440px) {
+
+    .topo {
+        width: 120%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+
+    #foto_logo {
+
+        width: 60%;
+        max-width: 300px;
+        height: auto;
+        top: -30px;
+        justify-content: center;
+        /*animation: none;*/
+        margin-left: 60px;
+        animation: logo 0.6s linear infinite;
+    }
+
+    #titulo {
+        width: 100%;
+        justify-content: center;
+        font-size: small;
+        margin-left: -10px;
+    }
+
+    .menu {
+        width: 100%;
+        column-gap: 0px;
+        margin-left: 15%;
+
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+
+    ul li {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .servicos-tudo img {
+        width: 80%;
+        margin-top: 20px;
+        column-gap: 8px;
+        list-style: none;
+        padding: 0 2%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    #sobre-titulo,
+    #servicos-titulo {
+
+        margin-left: -2px;
+        margin-top: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #horario-titulo {
+        margin-top: -40px;
+        margin-left: -5px;
+    }
+
+    .horario-tudo {
+        width: 100%;
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horario-tudo #agendar {
+        height: 70px;
+        padding: 10px 2%;
+        margin: 20px 0;
+        padding-bottom: 60px;
+        background-color: #222424;
+        font-size: 30px;
+    }
+
+    .horas {
+        width: 100%;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+
+    .horario-tudo #chegar {
+        height: 70px;
+        padding: 10px 2%;
+        margin: 20px 0;
+        margin-top: -50px;
+        background-color: #222424;
+    }
+
+    .sobre-tudo {
+        flex-direction: column;
+        margin-top: 35px;
+        margin-bottom: 60px;
+        align-items: center;
+    }
+
+    #texto {
+
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    #foto-sobre {
+        width: 100%;
+        max-width: 350px;
+        margin-left: 0px;
+    }
+
+    .contato-tudo {
+        margin-top: 80px;
+        margin-bottom:0px;
+    }
+
+    #contato-titulo {
+        margin-top: -30px;
+        font-size: 30px;
+        margin-left: -10px;
+    }
+
+    .num-cont {
+        margin-left: -13px;
+       
+    }
+
+    .inf,
+    .inf1,
+    .inf2
+     {
+        font-size: 11px;
+        text-align: center;
+    }
+    .inf3{
+        text-align: center;
+        font-size: 11px;
+    }
+
+    #loc{
+     
+    }
+
+    #fim  {
+        padding-bottom: -60px;
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+
+    }
+}
+
+/*
+
+@media (min-width: 440px) and (max-width: 900px) {
 
 
     .topo {
@@ -383,7 +545,7 @@ ul li img {
         height: auto;
         top: -30px;
         justify-content: center;
-        /*animation: none;*/
+        /*animation: none;
         margin-left: 0px;
         animation: logo 0.6s linear infinite;
     }
