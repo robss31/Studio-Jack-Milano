@@ -73,9 +73,9 @@ body {
 
 .menu :hover {
     color: rgb(255, 80, 255);
-    font-size: larger;  
-    transform: translatey(-5px);
-    transition: all 0.2s;
+    font-size: larger;
+    transform: translatey(-3px);
+    transition: all 0.3s;
 }
 
 .servicos-tudo {
@@ -428,6 +428,7 @@ ul li img {
     #horario-titulo {
         margin-top: -40px;
         margin-left: -5px;
+        font-size: 30px;
     }
 
     .horario-tudo {
@@ -448,7 +449,7 @@ ul li img {
 
     .horas {
         width: 100%;
-        margin-top: -10px;
+        margin-top: -25px;
         margin-left: 0px;
     }
 
@@ -456,7 +457,7 @@ ul li img {
         height: 70px;
         padding: 10px 2%;
         margin: 20px 0;
-        margin-top: -50px;
+        margin-top: 0px;
         background-color: #222424;
     }
 
