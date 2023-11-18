@@ -30,7 +30,7 @@ body {
     margin-bottom: 5px;
     display: inline-flex;
     border: 15px solid transparent;
-    background: linear-gradient( rgb(243, 18, 202)70%, rgba(200, 35, 191) 10%, rgb(232, 11, 170) 50%), border-box;
+    background: linear-gradient(rgb(243, 18, 202)70%, rgba(200, 35, 191) 10%, rgb(232, 11, 170) 50%), border-box;
 }
 
 
@@ -589,6 +589,12 @@ ul li img {
         align-items: center;
     }
 
+    #horario-titulo {
+        margin-top: -40px;
+        margin-left: -5px;
+        font-size: 25px;
+    }
+
     .horario-tudo #agendar {
         height: 70px;
         padding: 10px 2%;
@@ -837,22 +843,20 @@ ul li img {
 
 }
 
-@media (orientation: landscape) { 
+@media (orientation: landscape) {
     #content {
-    -webkit-transform: rotate(-90deg);
-    /* Firefox */
-    -moz-transform: rotate(-90deg);
-    /* IE */
-    -ms-transform: rotate(-90deg);
-    /* Opera */
-    -o-transform: rotate(-90deg);
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        -webkit-transform: rotate(-90deg);
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+        /* IE */
+        -ms-transform: rotate(-90deg);
+        /* Opera */
+        -o-transform: rotate(-90deg);
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
-    /* final spec */
-    transform: rotate(-90deg);
+        /* final spec */
+        transform: rotate(-90deg);
     }
 
 }
-
-
