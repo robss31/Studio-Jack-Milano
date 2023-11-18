@@ -30,15 +30,9 @@ body {
     margin-bottom: 5px;
     display: inline-flex;
     border: 15px solid transparent;
-    background: linear-gradient(rgb(29, 27, 29) 10%, rgb(28, 27, 28)70%, rgb(22, 22, 22) 10%, rgb(25, 25, 24) 50%), border-box;
-    animation: logo 3s linear infinite;
+    background: linear-gradient( rgb(243, 18, 202)70%, rgba(200, 35, 191) 10%, rgb(232, 11, 170) 50%), border-box;
 }
 
-@keyframes logo {
-    0% {
-        background: linear-gradient(rgba(220, 7, 220, 0.6) 10%, rgb(243, 18, 202)70%, rgba(200, 35, 191) 10%, rgb(232, 11, 170) 50%), border-box;
-    }
-}
 
 @keyframes span {
     0% {
@@ -79,8 +73,7 @@ body {
 
 .menu :hover {
     color: rgb(255, 80, 255);
-    font-size: larger;
-    margin-top: -20px;
+    font-size: larger;  
     transform: translatey(-5px);
     transition: all 0.2s;
 }
@@ -367,9 +360,8 @@ ul li img {
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-/*@media (min-width: 320px) and (max-width: 440px) and (orientation: portrait){ */
 
- @media all and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 440px) {
 
     .topo {
         width: 120%;
@@ -843,26 +835,23 @@ ul li img {
     }
 
 }
-/*
 
-@media (orientation:landscape) {
+@media (orientation: landscape) { 
+    #content {
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
-    .topo {
-        height: 100px;
-    }
-
-    #foto_logo,
-    .menu {
-        display: none;
-    }
-
-    #titulo {
-        font-size: medium;
-    }
-
-    .servicos-tudo img {
-        justify-content: center;
-        width: 50%;
+    /* final spec */
+    transform: rotate(-90deg);
     }
 
 }
+
+
