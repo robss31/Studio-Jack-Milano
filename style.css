@@ -157,8 +157,8 @@ ul li img {
     color: azure;
     padding-bottom: 20px;
     font-size: 22px;
-    font-weight: 600;
-    margin-left: 300px;
+    font-weight: 300;
+    margin-left: 400px;
 
 }
 
@@ -530,7 +530,7 @@ ul li img {
     }
 }
 
-@media (min-width: 440px) and (max-width: 900px) {
+@media (min-width: 441px) and (max-width: 900px) {
 
 
     .topo {
@@ -587,13 +587,9 @@ ul li img {
         margin-bottom: 30px;
         flex-direction: column;
         align-items: center;
+
     }
 
-    #horario-titulo {
-        margin-top: -40px;
-        margin-left: -5px;
-        font-size: 25px;
-    }
 
     .horario-tudo #agendar {
         height: 70px;
@@ -617,19 +613,27 @@ ul li img {
         background-color: #222424;
     }
 
-    #sobre,
-    #contato {
-        margin-top: 0;
-        margin-bottom: 20px;
+    #sobre-titulo,
+    #servicos-titulo,
+    #contato-titulo{
+
+        margin-left: -2px;
+        margin-top: 20px;
         font-size: 30px;
         text-align: center;
-        margin-left: -10px;
     }
-
+    #horario-titulo{
+        margin-left: -2px;
+        margin-top: -30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
     .sobre-tudo {
         flex-direction: column;
-        margin-top: -5px;
+        margin-top: 35px;
         align-items: center;
+        
     }
 
     #texto {
@@ -645,8 +649,8 @@ ul li img {
     }
 
     .contato-tudo {
-        margin-top: 5px;
-        margin-bottom: -30px;
+        margin-top: 80px;
+        margin-bottom: 0px;
     }
 
 
@@ -655,9 +659,6 @@ ul li img {
 
     }
 }
-
-
-
 
 @media (min-width: 901px) and (max-width: 1024px) {
 
@@ -717,15 +718,18 @@ ul li img {
         background-color: #222424;
     }
 
-    #sobre,
-    #contato {
-        margin-top: 0;
-        margin-bottom: 20px;
-        font-size: 30px;
-        text-align: center;
-        margin-left: -10px;
-    }
+    
+    #sobre-titulo,
+    #servicos-titulo,
+    #contato-titulo{
 
+        margin-left: -2px;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
     .sobre-tudo {
         flex-direction: column;
         margin-top: -5px;
@@ -755,7 +759,7 @@ ul li img {
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1530px) {
 
 
 
@@ -839,24 +843,6 @@ ul li img {
 
     #foto-sobre {
         margin-left: 30px
-    }
-
-}
-
-@media (orientation: landscape) {
-    #content {
-        -webkit-transform: rotate(-90deg);
-        /* Firefox */
-        -moz-transform: rotate(-90deg);
-        /* IE */
-        -ms-transform: rotate(-90deg);
-        /* Opera */
-        -o-transform: rotate(-90deg);
-        /* Internet Explorer */
-        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-        /* final spec */
-        transform: rotate(-90deg);
     }
 
 }
