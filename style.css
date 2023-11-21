@@ -54,7 +54,8 @@ body {
     display: flex;
     align-items: center;
     font-size: x-large;
-    animation: span 3.0s linear infinite;
+    color:rgb(243, 18, 202);
+    
 }
 
 .menu {
