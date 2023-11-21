@@ -163,7 +163,7 @@ ul li img {
 }
 
 #agendar a {
-
+    color: rgb(227, 227, 15);
     text-decoration: none;
 }
 
@@ -192,7 +192,7 @@ ul li img {
 }
 
 #chegar a {
-
+    color:rgb(227, 227, 15);
     text-decoration: none;
 
 }
@@ -446,7 +446,7 @@ ul li img {
     #horario-titulo {
         margin-top: -40px;
         margin-left: -5px;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .horario-tudo {
