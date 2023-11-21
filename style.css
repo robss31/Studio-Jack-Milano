@@ -174,7 +174,7 @@ ul li img {
     margin-left: 260px;
     border-radius: 20px;
     padding: 24px;
-    
+
 }
 
 #chegar a {
@@ -384,7 +384,7 @@ ul li img {
         justify-content: center;
         /*animation: none;*/
         margin-left: 60px;
-       
+
     }
 
     #titulo {
@@ -443,13 +443,13 @@ ul li img {
     }
 
     .horario-tudo #agendar {
-        width: 150px;
-        height: 70px;
+        width: 200px;
+        height: 40px;
         padding: 25px 2%;
         margin: 20px 0;
         padding-bottom: 60px;
         background-color: #222424;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .horas {
@@ -459,7 +459,7 @@ ul li img {
     }
 
     .horario-tudo #chegar {
-        width: 200px;
+        width: 250px;
         height: 70px;
         padding: 23px 2%;
         margin: 20px 0;
@@ -554,9 +554,8 @@ ul li img {
         height: auto;
         top: -30px;
         justify-content: center;
-        /*animation: none;*/
         margin-left: 0px;
-       
+
     }
 
     #titulo {
@@ -600,13 +599,13 @@ ul li img {
 
 
     .horario-tudo #agendar {
-        width: 150px;
-        height: 70px;
+        width: 200px;
+        height: 40px;
         padding: 25px 2%;
         margin: 20px 0;
         padding-bottom: 60px;
         background-color: #222424;
-        font-size: 20px;
+        font-size: 22px;
 
     }
 
@@ -617,7 +616,7 @@ ul li img {
     }
 
     .horario-tudo #chegar {
-        width: 200px;
+        width: 250px;
         height: 70px;
         padding: 23px 2%;
         margin: 20px 0;
