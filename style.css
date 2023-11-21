@@ -45,6 +45,21 @@ body {
     }
 }
 
+@keyframes largura {
+
+    0% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(1.5);
+    }
+
+    100% {
+        transform: scaleX(2);
+    }
+}
+
 #titulo {
     width: 100%;
     color: white;
@@ -53,7 +68,7 @@ body {
     display: flex;
     align-items: center;
     font-size: x-large;
-    animation: span 0.3s linear infinite;
+    animation: span 3.0s linear infinite;
 }
 
 .menu {
@@ -111,7 +126,7 @@ ul li img {
 #servicos-titulo {
     margin-left: 30px;
     margin-top: 30px;
-    animation: span 0.3s linear infinite;
+    color: rgb(227, 227, 15);
     font-size: 40px;
     text-align: center;
 
@@ -144,10 +159,11 @@ ul li img {
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    animation: largura 2s linear infinite;
 }
 
 #agendar a {
-    animation: span 0.3s linear infinite;
+
     text-decoration: none;
 }
 
@@ -158,7 +174,7 @@ ul li img {
     padding-bottom: 20px;
     font-size: 22px;
     font-weight: 300;
-    margin-left: 400px;
+    margin-left: 300px;
 
 }
 
@@ -172,18 +188,20 @@ ul li img {
     margin-left: 260px;
     border-radius: 20px;
     padding: 24px;
+    animation: largura 2s linear infinite;
 }
 
 #chegar a {
+
     text-decoration: none;
-    animation: span 0.3s linear infinite;
+
 }
 
 #horario-titulo {
     margin-top: -40px;
     margin-bottom: -60px;
     margin-left: 30px;
-    animation: span 0.3s linear infinite;
+    color: rgb(227, 227, 15);
     font-size: 40px;
     text-align: center;
 }
@@ -192,7 +210,7 @@ ul li img {
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: -10px;
-    animation: span 0.3s linear infinite;
+    color: rgb(227, 227, 15);
     font-size: 40px;
     text-align: center;
 }
@@ -246,7 +264,7 @@ ul li img {
     margin-top: 25px;
     margin-bottom: -60px;
     margin-left: 25px;
-    animation: span 0.3s linear infinite;
+    color: rgb(227, 227, 15);
     font-size: 40px;
     text-align: center;
 }
@@ -439,12 +457,13 @@ ul li img {
     }
 
     .horario-tudo #agendar {
+        width: 100px;
         height: 70px;
-        padding: 10px 2%;
+        padding: 25px 2%;
         margin: 20px 0;
         padding-bottom: 60px;
         background-color: #222424;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .horas {
@@ -454,11 +473,13 @@ ul li img {
     }
 
     .horario-tudo #chegar {
+        width: 140px;
         height: 70px;
-        padding: 10px 2%;
+        padding: 23px 2%;
         margin: 20px 0;
         margin-top: 0px;
         background-color: #222424;
+        font-size: 20px;
     }
 
     .sobre-tudo {
@@ -592,11 +613,13 @@ ul li img {
 
 
     .horario-tudo #agendar {
+        width: 100px;
         height: 70px;
-        padding: 10px 2%;
+        padding: 25px 2%;
         margin: 20px 0;
         padding-bottom: 60px;
         background-color: #222424;
+        font-size: 20px;
     }
 
     .horas {
@@ -606,34 +629,37 @@ ul li img {
     }
 
     .horario-tudo #chegar {
+        width: 140px;
         height: 70px;
-        padding: 10px 2%;
+        padding: 23px 2%;
         margin: 20px 0;
         margin-top: -50px;
         background-color: #222424;
+        font-size: 20px;
     }
 
     #sobre-titulo,
     #servicos-titulo,
-    #contato-titulo{
+    #contato-titulo {
 
         margin-left: -2px;
         margin-top: 20px;
         font-size: 30px;
         text-align: center;
     }
-    #horario-titulo{
+
+    #horario-titulo {
         margin-left: -2px;
         margin-top: -30px;
         font-size: 30px;
         text-align: center;
     }
-    
+
     .sobre-tudo {
         flex-direction: column;
         margin-top: 35px;
         align-items: center;
-        
+
     }
 
     #texto {
@@ -718,10 +744,10 @@ ul li img {
         background-color: #222424;
     }
 
-    
+
     #sobre-titulo,
     #servicos-titulo,
-    #contato-titulo{
+    #contato-titulo {
 
         margin-left: -2px;
         margin-top: 20px;
@@ -729,7 +755,7 @@ ul li img {
         text-align: center;
         margin-bottom: 30px;
     }
-    
+
     .sobre-tudo {
         flex-direction: column;
         margin-top: -5px;
