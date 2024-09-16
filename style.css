@@ -502,7 +502,7 @@ ul li img {
     }
 
     #texto {
-
+        max-width: 90%;
         margin-left: 0px;
         font-size: 18px;
     }
