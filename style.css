@@ -494,6 +494,7 @@ ul li img {
     }
 
     .sobre-tudo {
+        max-width: 90;
         flex-direction: column;
         margin-top: 35px;
         margin-bottom: 60px;
