@@ -609,7 +609,7 @@ ul li img {
     .servicos-tudo img {
         width: 80%;
         margin-top: 20px;
-        column-gap: 8cap;
+        column-gap: 8px;
         list-style: none;
         padding: 0 2%;
         margin-bottom: 10px;
@@ -673,12 +673,12 @@ ul li img {
         flex-direction: column;
         margin-top: 35px;
         align-items: center;
-        max-width: 90%;
+        
 
     }
 
     #texto {
-        text-justify: auto;
+        max-width: 90%;
         margin-left: 0px;
         font-size: 18px;
         text-align: justify;
