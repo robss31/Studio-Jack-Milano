@@ -671,6 +671,7 @@ ul li img {
         flex-direction: column;
         margin-top: 35px;
         align-items: center;
+        max-width: 90%;
 
     }
 
