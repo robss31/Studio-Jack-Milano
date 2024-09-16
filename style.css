@@ -506,7 +506,7 @@ ul li img {
         max-width: 90%;
         margin-left: 0px;
         font-size: 18px;
-        
+        text-align: justify;
     }
 
     #foto-sobre {
@@ -681,6 +681,7 @@ ul li img {
         text-justify: auto;
         margin-left: 0px;
         font-size: 18px;
+        text-align: justify;
     }
 
     #foto-sobre {
@@ -778,7 +779,7 @@ ul li img {
     }
 
     #texto {
-
+        text-align: justify;
         margin-left: 0px;
         font-size: 18px;
     }
