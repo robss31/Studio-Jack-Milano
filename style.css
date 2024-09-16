@@ -84,6 +84,7 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
     column-gap: 80px;
     list-style: none;
@@ -92,6 +93,8 @@ body {
     background-size: cover;
     padding: 0 2%;
     margin-bottom: 60px;
+    
+ 
     
 
 }
@@ -110,6 +113,8 @@ ul li img {
     margin-top: 10px;
     margin-bottom: 20px;
     cursor: pointer;
+    margin-left: 30px;
+    text-align: center;
 }
 
 #servicos-titulo {
@@ -125,6 +130,7 @@ ul li img {
 .horario-tudo {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 80px;
     margin-bottom: 60px;
     background: linear-gradient(rgba(0, 0, 0, 0.7)10%, rgba(0, 0, 0, 0.7)10%), url("./imagens/maquiagem.jpg"), border-box;
@@ -144,7 +150,7 @@ ul li img {
     text-align: center;
     font-size: 34px;
     margin-top: 160px;
-    margin-left: 160px;
+    margin-left: 10px;
     border-radius: 20px;
     padding: 24px;
     cursor: pointer;
