@@ -244,6 +244,7 @@ ul li img {
     margin-bottom: 20px;
     font-size: 24px;
     color: azure;
+    text-align: justify;
 }
 
 #foto-sobre {
@@ -505,6 +506,7 @@ ul li img {
         max-width: 90%;
         margin-left: 0px;
         font-size: 18px;
+        
     }
 
     #foto-sobre {
@@ -676,7 +678,7 @@ ul li img {
     }
 
     #texto {
-
+        text-justify: auto;
         margin-left: 0px;
         font-size: 18px;
     }
